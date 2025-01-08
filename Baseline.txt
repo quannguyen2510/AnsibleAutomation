@@ -1,0 +1,58 @@
+# Baseline
+Cisco	
+	terminal length 0 	
+	show inven	
+	show version	
+	show env all	
+	show clock	
+	show interfaces status	
+	show etherchannel summary	
+	show standby bri 	
+	show mac add 	
+	show arp 	
+	show vlan	
+	show spanning-tree	
+	show cdp nei	
+	show lldp nei	
+	show ip interface brief	
+	show ip route	
+	show ip ospf nei	
+	show logging	
+	show running-config	
+	wr mem 	
+		
+Juniper
+	set cli time
+	set cli screen-length 300
+	set cli screen-width 300
+	show chassis hardware         	
+	show chassis routing          	
+	show system alarms            	
+	show chassis alarms           	
+	show interface terse          	
+	show lacp interfaces          	
+	show ethernet-switching table 	
+	show arp                      	
+	show vlan                     	
+	show spanning-tree bridge     	
+	show spanning-tree interface  	
+	show lldp nei                 	
+	show route                    	
+	show ospf route               	
+	show config | display set     	
+	show configuration            	
+	show log messages             	
+	show system uptime            	
+	show virtual-chassis          	
+	show virtual-chassis status   	
+	show virtual-chassis vc-port  	
+		
+AT	
+	show stack	
+	show interface brief	
+	show interface status	
+	show arp	
+	show vlan all	
+	show spanning-tree brief	
+	show system	
+	show running-config
