@@ -1,0 +1,13 @@
+---
+- name: Test
+  hosts: JuniperDevices
+
+  tasks:
+    - name: Gather legacy and resource facts
+    junipernetworks.junos.junos_facts:
+      gather_subset: all
+      gather_network_resources: all
+
+    - name: Print the gateway for each host when defined
+    ansible.builtin.debug:
+      var: ansible_facts

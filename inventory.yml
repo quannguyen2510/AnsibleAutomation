@@ -1,0 +1,21 @@
+---
+ArubaDevices:
+  hosts:
+    Aruba1:
+      ansible_host: 192.168.10.1
+JuniperDevices:
+  hosts:
+    EX1:
+      ansible_host: 192.168.10.2
+  var:
+    ansible_user: lab
+    ansible_password: lab123
+CiscoDevices:
+  hosts:
+    Cisco1:
+      ansible_host: 192.168.10.3
+NetworkDevices:
+  children:
+    ArubaDevices:
+    JuniperDevices:
+    CiscoDevices:
