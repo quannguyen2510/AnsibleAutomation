@@ -19,3 +19,5 @@ NetworkDevices:
     ArubaDevices:
     JuniperDevices:
     CiscoDevices:
+  vars:
+    ansible_python_interpreter: auto_legacy
