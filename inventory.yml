@@ -7,7 +7,7 @@ JuniperDevices:
   hosts:
     EX1:
       ansible_host: 192.168.10.2
-  var:
+  vars:
     ansible_user: lab
     ansible_password: lab123
 CiscoDevices:
