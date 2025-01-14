@@ -22,3 +22,5 @@ NetworkDevices:
   vars:
     ansible_python_interpreter: /usr/bin/python3
     ansible_become_method: enable
+    ansible_become_user: lab
+    ansible_become_password: lab123
